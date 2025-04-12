@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anirudh Ravichander</title>
+    <style>
+        /* Global Styling */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Poppins", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+        /* Background Styling */
+        body {
+            background-image: url('./Media/For\ Inner\ bg.jpg'); /* Change if needed */
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            color: white;
+            text-align: center;
+            padding-bottom: 50px;
+        }
+
+        /* Featured Artist Section */
+        .artist-box {
+            background: rgba(255, 255, 255, 0.15);
+            padding: 20px;
+            border-radius: 15px;
+            max-width: 500px;
+            margin: 40px auto;
+            box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .artist-box:hover {
+            transform: scale(1.05);
+            box-shadow: 0px 8px 20px rgba(255, 255, 255, 0.3);
+        }
+
+        .artist-box img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 10px;
+            border: 4px solid white;
+        }
+
+        .artist-box h2 {
+            font-size: 1.8rem;
+            margin-bottom: 5px;
+        }
+
+        .artist-box p {
+            font-size: 1rem;
+            color: yellow; /* Changed color to yellow */
+            font-weight: bold;
+        }
+
+        /* Song Container */
+        .song-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: rgba(255, 255, 255, 0.1);
+            padding: 15px;
+            border-radius: 10px;
+            margin: 15px auto;
+            max-width: 700px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .song-container:hover {
+            transform: scale(1.03);
+            box-shadow: 0px 5px 15px rgba(255, 255, 255, 0.3);
+        }
+
+        /* Image Styling */
+        .song-container img {
+            width: 120px;
+            height: 120px;
+            border-radius: 10px;
+            margin-right: 20px;
+            transition: transform 0.3s ease;
+        }
+
+        .song-container img:hover {
+            transform: scale(1.1);
+        }
+
+        /* Audio Player */
+        audio {
+            flex: 1;
+            max-width: 400px;
+        }
+
+        /* Button Styling */
+        .button-container {
+            margin-top: 30px;
+        }
+
+        .back-btn {
+            background-color: white;
+            color: black;
+            border: none;
+            padding: 12px 25px;
+            font-size: 1rem;
+            font-weight: bold;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: 0.3s ease;
+        }
+
+        .back-btn:hover {
+            background-color: lightgray;
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Featured Artist Box -->
+    <div class="artist-box">
+        <img src="./Media/Ani/Aniruth.jpg" alt="Anirudh">
+        <h2>Anirudh Ravichander</h2>
+        <p>Music Composer & Singer</p> <!-- Now Yellow -->
+    </div>
+
+    <!-- Songs Section -->
+    <div class="song-container">
+        <img src="https://images.genius.com/87c7ed24fde3e8c230725b9d4a0e35e6.1000x1000x1.png" alt="Boomi Enna Suthudhe">
+        <audio src="./Media/Ani/Boomi Enna Suthudhe.mp3" controls></audio>
+    </div>
+
+    <div class="song-container">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBqcrai2p_bgEX79XSSM3f94l1FpzzBE425g&s" alt="Beast Mode">
+        <audio src="./Media/Ani/Beast_Mode_From_Beast.mp3" controls></audio>
+    </div>
+
+    <div class="song-container">
+        <img src="https://upload.wikimedia.org/wikipedia/en/d/db/Whu_this_kolaveri_di.JPG" alt="Why This Kolaveri Di">
+        <audio src="./Media/Ani/Why_This_Kolaveri_Di_The_Soup_of_Love_Anirudh_Ravichander,.mp3" controls></audio>
+    </div>
+
+    <!-- Back Button -->
+    <div class="button-container">
+        <a href="./artist.html">
+            <button class="back-btn">Back</button>
+        </a>
+    </div>
+
+</body>
+</html>

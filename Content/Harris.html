@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harris Jayaraj</title>
+    <style>
+        /* Global Styling */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Poppins", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+        /* Background Styling */
+        body {
+            background-image: url('./Media/For\ Inner\ bg.jpg'); /* Update if needed */
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            color: white;
+            text-align: center;
+            padding-bottom: 50px;
+        }
+
+        /* Featured Artist Section */
+        .artist-box {
+            background: rgba(255, 255, 255, 0.15);
+            padding: 20px;
+            border-radius: 15px;
+            max-width: 500px;
+            margin: 40px auto;
+            box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .artist-box:hover {
+            transform: scale(1.05);
+            box-shadow: 0px 8px 20px rgba(255, 255, 255, 0.3);
+        }
+
+        .artist-box img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 10px;
+            border: 4px solid white;
+        }
+
+        .artist-box h2 {
+            font-size: 1.8rem;
+            margin-bottom: 5px;
+        }
+
+        .artist-box p {
+            font-size: 1rem;
+            color: yellow; /* Text in yellow */
+            font-weight: bold;
+        }
+
+        /* Song Container */
+        .song-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: rgba(255, 255, 255, 0.1);
+            padding: 15px;
+            border-radius: 10px;
+            margin: 15px auto;
+            max-width: 700px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .song-container:hover {
+            transform: scale(1.03);
+            box-shadow: 0px 5px 15px rgba(255, 255, 255, 0.3);
+        }
+
+        /* Image Styling */
+        .song-container img {
+            width: 120px;
+            height: 120px;
+            border-radius: 10px;
+            margin-right: 20px;
+            transition: transform 0.3s ease;
+        }
+
+        .song-container img:hover {
+            transform: scale(1.1);
+        }
+
+        /* Audio Player */
+        audio {
+            flex: 1;
+            max-width: 400px;
+        }
+
+        /* Button Styling */
+        .button-container {
+            margin-top: 30px;
+        }
+
+        .back-btn {
+            background-color: white;
+            color: black;
+            border: none;
+            padding: 12px 25px;
+            font-size: 1rem;
+            font-weight: bold;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: 0.3s ease;
+        }
+
+        .back-btn:hover {
+            background-color: lightgray;
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Featured Artist Box -->
+    <div class="artist-box">
+        <img src="./Media/Harris/Harris.jpg" alt="Harris Jayaraj">
+        <h2>Harris Jayaraj</h2>
+        <p>Music Composer & Singer</p> <!-- Now Yellow -->
+    </div>
+
+    <!-- Songs Section -->
+    <div class="song-container">
+        <img src="https://c.saavncdn.com/635/Vaaranam-Aayiram-Tamil-2008-20190629141128-500x500.jpg" alt="Ava Enna">
+        <audio src="./Media/Harris/1669362857792614657Ava_Enna-140_-_audio_only_medium.m4a.mp3" controls></audio>
+    </div>
+
+    <div class="song-container">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7fPyBti_cyE_DfFNPTfRqDp9JGEBJv_SqhQ&s" alt="Song 2">
+        <audio src="./Media/Harris/3e862977-9d80-4dcf-a35f-545ed882cd28.mp3" controls></audio>
+    </div>
+
+    <div class="song-container">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkII78jXoIiZLzH39y-DfL1huSGxtEZ_2frQ&s" alt="Venmathiye">
+        <audio src="./Media/Harris/465bf854_bb51_4780_a38c_b53d65eb2cc6Venmathiye_140_audio_only_.mp3" controls></audio>
+    </div>
+
+    <!-- Back Button -->
+    <div class="button-container">
+        <a href="./artist.html">
+            <button class="back-btn">Back</button>
+        </a>
+    </div>
+
+</body>
+</html>

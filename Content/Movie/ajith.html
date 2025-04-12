@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajith Kumar Movies - Cheems Spot</title>
+    <style>
+        body {
+            background-image: url(./Images/mov\ bg.jpg);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            font-family: "Poppins", sans-serif;
+            color: white;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            text-align: center;
+        }
+
+        .title {
+            text-align: center;
+            letter-spacing: 5px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+            margin: 50px 0;
+            font-size: 2.5rem;
+        }
+
+        .movie {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .movie:hover {
+            transform: scale(1.02);
+        }
+
+        .movie img {
+            width: 200px;
+            border-radius: 10px;
+        }
+
+        .movie-info {
+            flex: 1;
+            margin-left: 20px;
+            text-align: left;
+        }
+
+        .movie h2 {
+            margin: 0;
+            font-size: 1.8rem;
+            color: #FFD700;
+        }
+
+        .rating {
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: #ffa500;
+            margin-top: 5px;
+        }
+
+        .back-btn {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 10px 20px;
+            font-size: 1.2rem;
+            font-weight: bold;
+            text-decoration: none;
+            background: whitesmoke;
+            color: black;
+            border-radius: 5px;
+            transition: 0.3s;
+        }
+
+        .back-btn:hover {
+            background: grey;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Ajith Kumar Movies - Cheems Spot</h1>
+        
+        <div class="movie">
+            <img src="https://i.pinimg.com/736x/1c/24/b2/1c24b256d8e862c704b0da3a1ed5f078.jpg" alt="Thunivu">
+            <div class="movie-info">
+                <h2>Thunivu (2023)</h2>
+                <p>Directed by H. Vinoth, this heist-action thriller stars Ajith Kumar as a mastermind behind a high-stakes bank robbery.</p>
+                <p class="rating">IMDb: 6.0/10</p>
+            </div>
+        </div>
+        
+        <div class="movie">
+            <img src="https://onlookersmedia.in/wp-content/uploads/2021/07/thala-ajith-starrer-valimai-posters-3.jpg" alt="Valimai">
+            <div class="movie-info">
+                <h2>Valimai (2022)</h2>
+                <p>A high-octane action thriller directed by H. Vinoth, featuring Ajith as a cop battling a biker gang involved in crime.</p>
+                <p class="rating">IMDb: 6.1/10</p>
+            </div>
+        </div>
+        
+        <div class="movie">
+            <img src="https://m.media-amazon.com/images/M/MV5BMTA4ZDFiNDktNzMwYi00Zjc0LWIyNDYtNzQ2OGU4MWM2N2JjXkEyXkFqcGdeQXVyMTIyNzY0NTMx._V1_FMjpg_UX1000_.jpg" alt="Nerkonda Paarvai">
+            <div class="movie-info">
+                <h2>Nerkonda Paarvai (2019)</h2>
+                <p>Ajith plays a powerful lawyer in this courtroom drama directed by H. Vinoth, tackling themes of women's rights and justice.</p>
+                <p class="rating">IMDb: 8.0/10</p>
+            </div>
+        </div>
+        
+        <div class="movie">
+            <img src="https://upload.wikimedia.org/wikipedia/en/d/db/Vivegam_poster.jpg" alt="Vivegam">
+            <div class="movie-info">
+                <h2>Vivegam (2017)</h2>
+                <p>A spy action thriller by Siva, featuring Ajith as an intelligence officer dealing with betrayal and global threats.</p>
+                <p class="rating">IMDb: 6.4/10</p>
+            </div>
+        </div>
+        
+        <div class="movie">
+            <img src="https://upload.wikimedia.org/wikipedia/en/7/75/Veeram_poster.jpg" alt="Veeram">
+            <div class="movie-info">
+                <h2>Veeram (2014)</h2>
+                <p>Ajith plays a village hero in this action-packed family entertainer directed by Siva, showcasing his mass appeal.</p>
+                <p class="rating">IMDb: 6.6/10</p>
+            </div>
+        </div>
+        
+        <a href="./index.html" class="back-btn">Back</a>
+    </div>
+</body>
+</html>

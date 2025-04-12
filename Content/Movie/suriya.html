@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suriya Movies - Cheems Spot</title>
+    <style>
+        body {
+            background-image: url(./Images/mov\ bg.jpg);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            font-family: "Poppins", sans-serif;
+            color: white;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            text-align: center;
+        }
+
+        .title {
+            text-align: center;
+            letter-spacing: 5px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+            margin: 50px 0;
+            font-size: 2.5rem
+        }
+
+        .movie {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            transition: transform 0.3s ease-in-out;
+            
+        }
+
+        .movie:hover {
+            transform: scale(1.02);
+        }
+
+        .movie img{
+            width: 200px;
+            border-radius: 10px;
+        }
+
+        .movie-info{
+            flex: 1;
+            margin-left: 20px;
+            text-align: left;
+        }
+
+        .movie h2{
+            margin: 0;
+            font-size: 1.8rem;
+            color: #FFD700;
+        }
+
+        .rating{
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: #ffa500;
+            margin-top: 5px;
+        }
+
+        .back-btn{
+            display: inline-block;
+            margin-top: 30px;
+            padding: 10px 20px;
+            font-size: 1.2rem;
+            font-weight: bold;
+            text-decoration: none;
+            background: whitesmoke;
+            color: black;
+            border-radius: 5px;
+            transition: 0.3s;
+        }
+
+        .back-btn:hover{
+            background: grey;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Suriya Movies - Cheems Spot</h1>
+
+        <div class="movie">
+            <img src="https://rukminim2.flixcart.com/image/850/1000/kx3l0nk0/poster/0/e/a/medium-jai-bhim-1218-original-imag9m4bqstbw8gz.jpeg?q=90&crop=false" alt="suriya">
+            <div class="movie-info">
+                <h2>Jai Bhim (2021)</h2>
+                <p>When a tribal man is arrested for a case of alleged theft, his wife turns to a human-rights lawyer to help bring justice.</p>
+                <p class="rating">IMDb: 8.7/10</p>
+            </div>
+        </div>
+        <!-- Soorarai Pottru -->
+        <div class="movie">
+            <img src="https://i.pinimg.com/736x/c6/2d/be/c62dbee4a43451ed9f97223865189631.jpg" alt="Soorarai Pottru">
+            <div class="movie-info">
+                <h2>Soorarai Pottru (2020)</h2>
+                <p>A determined entrepreneur fights against all odds to launch a low-cost airline.</p>
+                <p class="rating">IMDb: 8.7/10</p>
+            </div>
+        </div>
+
+        <!-- 24 -->
+        <div class="movie">
+            <img src="https://m.media-amazon.com/images/I/71OsxqYjbPL._AC_UF1000,1000_QL80_.jpg" alt="24">
+            <div class="movie-info">
+                <h2>24 (2016)</h2>
+                <p>A scientist invents a time-traveling watch, leading to a fight between good and evil.</p>
+                <p class="rating">IMDb: 7.8/10</p>
+            </div>
+        </div>
+
+        <!-- Kaakha Kaakha -->
+        <div class="movie">
+            <img src="https://upload.wikimedia.org/wikipedia/en/thumb/0/02/Kaakha_Kaakha.jpg/220px-Kaakha_Kaakha.jpg" alt="Kaakha Kaakha">
+            <div class="movie-info">
+                <h2>Kaakha Kaakha (2003)</h2>
+                <p>A tough cop's life takes a turn when he falls in love while fighting criminals.</p>
+                <p class="rating">IMDb: 8.0/10</p>
+            </div>
+        </div>
+
+        <a href="./index.html" class="back-btn">Back</a>
+    </div>
+</body>
+</html>

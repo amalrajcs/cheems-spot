@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <head>
+        <style>
+            body {
+                background-image: url(./Media/For\ Inner\ bg.jpg);
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: cover;
+                background-position: center;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                flex-direction: column;
+                font-family: "Poppins", sans-serif;
+            }
+    
+            .title {
+                text-align: center;
+                padding-left: 50px;
+                letter-spacing: 18px;
+                text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+                margin-bottom: 30px;
+                color: whitesmoke;
+                font-size: 2rem;
+            }
+    
+            .container {
+                display: flex;
+                gap: 60px;
+                justify-content: center;
+                align-items: center;
+            }
+    
+            .item {
+                text-align: center;
+            }
+    
+            .item img {
+                height: 125px;
+                transition: transform 0.3s ease-in-out;
+            }
+    
+            .item img:hover {
+                transform: scale(1.1);
+            }
+    
+            h2 {
+                color: whitesmoke;
+                margin-top: 10px;
+            }
+    
+            .backbtn {
+                font-size: 1rem;
+                margin-top: 2rem;
+                padding: 10px 20px;
+                border-radius: 20px;
+                outline: none;
+                border: none;
+                cursor: pointer;
+                background: white;
+                color: black;
+                transition: 0.3s;
+            }
+    
+            .backbtn:hover {
+                background: gray;
+                color: white;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 class="title">CHEEMS SPOT</h1>
+        <div class="container">
+            <div class="item">
+                <a href="./artist.html">
+                    <img src="../Media/Images/Spotify_lg.png" alt="Music">
+                </a>
+                <h2>Music</h2>
+            </div>
+            <div class="item">
+                <a href="./Movie/index.html">
+                    <img src="../Media/Images/Mov_lg.png" alt="Movies">
+                </a>
+                <h2>Movies</h2>
+            </div>
+        </div>
+        <a href="../index.html">
+            <button class="backbtn">Go to Login</button>
+        </a>
+    </body>
+    </head>
+

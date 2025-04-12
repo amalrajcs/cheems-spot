@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rajinikanth Movies - Cheems Spot</title>
+    <style>
+        body {
+            background-image: url(./Images/mov\ bg.jpg);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            font-family: "Poppins", sans-serif;
+            color: white;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            text-align: center;
+        }
+
+        .title {
+            text-align: center;
+            letter-spacing: 5px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+            margin: 50px 0;
+            font-size: 2.5rem;
+        }
+
+        .movie {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .movie:hover {
+            transform: scale(1.02);
+        }
+
+        .movie img {
+            width: 200px;
+            border-radius: 10px;
+        }
+
+        .movie-info {
+            flex: 1;
+            margin-left: 20px;
+            text-align: left;
+        }
+
+        .movie h2 {
+            margin: 0;
+            font-size: 1.8rem;
+            color: #FFD700;
+        }
+
+        .rating {
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: #FFA500;
+            margin-top: 5px;
+        }
+
+        .back-btn {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 10px 20px;
+            font-size: 1.2rem;
+            font-weight: bold;
+            text-decoration: none;
+            background: #FFD700;
+            color: black;
+            border-radius: 5px;
+            transition: 0.3s;
+        }
+
+        .back-btn:hover {
+            background: #FFA500;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Rajinikanth Movies - Cheems Spot</h1>
+        
+        <div class="movie">
+            <img src="https://m.media-amazon.com/images/M/MV5BNTlhMzRlZTMtYzhmMy00ZjQxLWEyZDgtZTM5ZTNkZjJhM2ZmXkEyXkFqcGc@._V1_.jpg" alt="Jailer">
+            <div class="movie-info">
+                <h2>Jailer (2023)</h2>
+                <p>Directed by Nelson Dilipkumar, this action-thriller features Rajinikanth as a retired jailer who takes on a violent gang threatening his family.</p>
+                <p class="rating">IMDb: 7.5/10</p>
+            </div>
+        </div>
+        
+        <div class="movie">
+            <img src="https://cdn.myportfolio.com/9fd5290e2109e08ffd62f3f8f39a7073/3a881b10d878a747f22b4c59_rw_1200.jpg?h=a235252faf6fd2dfbdc0e19a0e8cb7cf" alt="Kabali">
+            <div class="movie-info">
+                <h2>Kabali (2016)</h2>
+                <p>Rajinikanth plays an aged gangster seeking justice for his past in this Pa. Ranjith-directed drama.</p>
+                <p class="rating">IMDb: 6.2/10</p>
+            </div>
+        </div>
+        
+        <div class="movie">
+            <img src="https://upload.wikimedia.org/wikipedia/en/1/11/Enthiran_film_poster.jpg" alt="Enthiran">
+            <div class="movie-info">
+                <h2>Enthiran (2010)</h2>
+                <p>A groundbreaking sci-fi film directed by Shankar, where Rajinikanth plays a scientist and his robotic alter-ego.</p>
+                <p class="rating">IMDb: 7.1/10</p>
+            </div>
+        </div>
+        
+        <div class="movie">
+            <img src="https://upload.wikimedia.org/wikipedia/en/0/04/Petta_poster.jpg" alt="Petta">
+            <div class="movie-info">
+                <h2>Petta (2019)</h2>
+                <p>Directed by Karthik Subbaraj, this action-packed thriller showcases Rajinikanth in his vintage charismatic avatar.</p>
+                <p class="rating">IMDb: 7.2/10</p>
+            </div>
+        </div>
+        
+        <div class="movie">
+            <img src="https://upload.wikimedia.org/wikipedia/en/7/7c/Baashha_poster.jpg" alt="Baashha">
+            <div class="movie-info">
+                <h2>Baashha (1995)</h2>
+                <p>A cult classic where Rajinikanth plays a humble auto driver with a violent past as a Mumbai underworld don.</p>
+                <p class="rating">IMDb: 8.2/10</p>
+            </div>
+        </div>
+        
+        <a href="./index.html" class="back-btn">Back</a>
+    </div>
+</body>
+</html>

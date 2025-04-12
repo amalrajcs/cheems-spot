@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cheems Spot - Tamil Movies</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-image: url(./Images/mov\ bg.jpg);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            background-position: center;
+            font-family: "Poppins", sans-serif;
+            text-align: center;
+            color: whitesmoke;
+            margin: 0;
+            padding: 0;
+        }
+
+        .language-selector {
+            margin: 20px 0;
+            text-align: center;
+        }
+
+        .language-selector select {
+            font-size: 1rem;
+            padding: 10px;
+            border-radius: 5px;
+            border: none;
+            cursor: pointer;
+        }
+
+        .title {
+            letter-spacing: 5px;
+            text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.5);
+            font-size: 2.5rem;
+            margin-bottom: 40px;
+        }
+
+        .category {
+            margin-bottom: 40px;
+        }
+
+        .category h2 {
+            font-size: 1.8rem;
+            margin-bottom: 20px;
+        }
+
+        .category img {
+            height: 250px;
+            margin: 10px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .category img:hover {
+            transform: scale(1.1);
+        }
+
+        .homebtn {
+            font-size: 1rem;
+            margin-top: 1rem;
+            margin-bottom: 2rem;
+            padding: 12px 25px;
+            border-radius: 25px;
+            outline: none;
+            border: none;
+            cursor: pointer;
+            background: whitesmoke;
+            color: black;
+            font-weight: bold;
+            transition: background 0.3s, transform 0.2s;
+        }
+
+        .homebtn:hover {
+            background: grey;
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Title -->
+    <h1 class="title">CHEEMS SPOT - TAMIL MOVIES</h1>
+
+    <!-- Language Selector -->
+    <div class="language-selector">
+        <label for="language">Choose Language : </label>
+        <select id="language">
+            <option value="tamil">Tamil</option>
+            <option value="telugu">Telugu</option>
+            <option value="malayalam">Malayalam</option>
+            <option value="hindi">Hindi</option>
+            <option value="english">English</option>
+        </select>
+    </div>
+
+    <!-- Actor/Actress Section -->
+    <div class="category">
+        <h2>Actor/Actress</h2>
+        <a href="./vijay.html"><img src="https://i.pinimg.com/736x/9f/b5/83/9fb583b48f7c171388738c8497627586.jpg"></a>
+        <a href="./ajith.html"><img src="https://static.gameloop.com/img/0aee915288d97850f0967a53eb797825.jpg?imageMogr2/thumbnail/undefinedx266/format/webp" alt=""></a>
+        <a href="./rajni.html"><img src="https://i.pinimg.com/736x/7a/8b/e0/7a8be06bf4388300b3846796b83a8e7f.jpg"></a>
+        <a href="./suriya.html"><img src="https://mrwallpaper.com/images/hd/surya-wounded-face-hd-eaweqwzdbm7r966v.jpg"></a>
+        <a href="#"><img src="https://wallpapers.com/images/hd/samantha-saree-green-and-blue-bookshelf-bs4gkpzd972k9aij.jpg"></a>
+    </div>
+
+    <!-- Directors Section -->
+    <div class="category">
+        <h2>Directors</h2>
+        <a href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4wXG__AqHbR19mCwXKl_-9ZoOw4Q_UtoCquinmxMP9CPnM7YjsENlcJxjxQ2ijosNMUg&usqp=CAU"></a>
+        <a href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyggGCKTX2XRdE1Pb5bJcM7fbhlNUzwBo0_A&s"></a>
+        <a href="#"><img src="https://images.news18.com/tamil/uploads/2022/06/nelso.jpg"></a>
+        <a href="#"><img src="https://wallpapercave.com/wp/wp11700592.jpg"></a>
+        <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/2/2d/H._Vinoth_at_Theeran_Adhigaaram_Ondru_Press_Meet.jpg"></a>
+    </div>
+
+    <!-- New Releases Section -->
+    <div class="category">
+        <h2>New Releases</h2>
+        <a href="#"><img src="https://static.moviecrow.com/gallery/20231120/222974-Leo%20Vijay%20OTT%20Netflix%20Release%20Date%20Trisha%20Lokesh%20Kanagaraj%20India.jpg" height="300px"></a>
+        <a href="#"><img src="https://i2.wp.com/www.shutterstock.com/blog/wp-content/uploads/sites/5/2024/03/Joker-poster.jpg?ssl=1" alt=""></a>
+        <a href="#"><img src="https://images-cdn.ubuy.co.in/6583eea32d17422f247fd60a-house-of-the-dragon-movie-poster-tv.jpg" alt=""></a>
+        <a href="#"><img src="https://assetscdn1.paytm.com/images/cinema/Dragon-galery-08d794a0-cc0a-11ef-912e-2154ccd78c0a.jpg" alt=""></a>
+        <a href="#"><img src="https://www.cinejosh.com/newsimg/newsmainimg/jailer-is-now-trending-at-no-3-in-the-world_b_1009230626.jpg" height="300px"></a>
+    </div>
+
+    <!-- Action/Drama/Comedy Section -->
+    <div class="category">
+        <h2>Action/Drama/Comedy</h2>
+        <a href="#"><img src="https://cdn.123telugu.com/content/wp-content/uploads/2023/10/mark.jpg"></a>
+        <a href="#"><img src="https://cdn.123telugu.com/content/wp-content/uploads/2024/03/thegoat.jpg"></a>
+        <a href="#"><img src="https://feeds.abplive.com/onecms/images/uploaded-images/2021/07/10/273e787ba809e725948334340c658e68_original.jpg"></a>
+    </div>
+
+    <!-- Home Button -->
+    <a href="../index.html">
+        <button class="homebtn">Home Page</button>
+    </a>
+
+</body>
+</html>
